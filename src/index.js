@@ -8,8 +8,6 @@ import { Provider } from "react-redux";
 import { PersistGate } from "redux-persist/integration/react";
 import persistStore from "redux-persist/es/persistStore";
 import store from "./store";
-import dotenv from 'dotenv-webpack';
-dotenv.config();
 
 const persistedStore = persistStore(store);
 
